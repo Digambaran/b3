@@ -1,0 +1,13 @@
+{
+  "name": "b3",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Digambaran/b3",
+    "ssh": "git@github.com:Digambaran/b3.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
